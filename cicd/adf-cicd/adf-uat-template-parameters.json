@@ -19,12 +19,6 @@
         },
         "AzureSqlDatabase1_properties_typeProperties_userName": {
             "value": "ianmbadmin"
-        },
-        "containerUri": {
-            "value": "https://ianmbpocsa.blob.core.windows.net/test"
-        },
-        "containerSasToken": {
-            "value": "KNtyTo8dPe+GtZSTl1X7n95a9EFUzYvKFntDBCHhOgEBvVl7J4fLriNEfGapmB6C/bbQYXm3736G+AStxlFEiA=="
         }
     }
 }
