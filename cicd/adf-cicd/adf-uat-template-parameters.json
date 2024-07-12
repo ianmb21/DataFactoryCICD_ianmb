@@ -4,6 +4,27 @@
     "parameters": {
         "factoryName": {
             "value": "adf-mypoc-uat"
+        },
+        "AzureSqlDatabase1_password": {
+            "value": "Macoy@2024pwd"
+        },
+        "AzureBlobStorage1_connectionString": {
+            "value": "DefaultEndpointsProtocol=https;AccountName=ianmbpocsa;AccountKey=KNtyTo8dPe+GtZSTl1X7n95a9EFUzYvKFntDBCHhOgEBvVl7J4fLriNEfGapmB6C/bbQYXm3736G+AStxlFEiA==;EndpointSuffix=core.windows.net"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_server": {
+            "value": "ianmbpocserver.database.windows.net"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_database": {
+            "value": "mypocDB"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_userName": {
+            "value": "ianmbadmin"
+        },
+        "containerUri": {
+            "value": "https://ianmbpocsa.blob.core.windows.net/test"
+        },
+        "containerSasToken": {
+            "value": "KNtyTo8dPe+GtZSTl1X7n95a9EFUzYvKFntDBCHhOgEBvVl7J4fLriNEfGapmB6C/bbQYXm3736G+AStxlFEiA=="
         }
     }
 }
