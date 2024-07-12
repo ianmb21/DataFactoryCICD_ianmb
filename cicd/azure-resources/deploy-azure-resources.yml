@@ -41,15 +41,15 @@ steps:
         --template-file "${{ parameters.ADFBicepTemplateFilePath }}" \
         --parameters dataFactoryName="${{ parameters.DataFactoryName }}" 
 
-- task: AzureCLI@2
-  displayName: "Key Vault Deploy Via Bicep"
-  inputs:
-    azureSubscription: "${{ parameters.AzureResourceManagerConnection }}"
-    scriptType: bash
-    scriptLocation: "inlineScript"
-    inlineScript: |
-      az deployment group create \
-        --name "MyKeyVaultDeployment$(Build.BuildNumber)" \
-        --resource-group "${{ parameters.KeyVaultResourceGroupName }}" \
-        --template-file "${{ parameters.KeyVaultBicepTemplateFilePath }}" \
-        --parameters keyVaultName="${{ parameters.KeyVaultName }}" keyVaultURL="${{ parameters.KeyVaultURL }}" 
+# - task: AzureCLI@2
+#   displayName: "Key Vault Deploy Via Bicep"
+#   inputs:
+#     azureSubscription: "${{ parameters.AzureResourceManagerConnection }}"
+#     scriptType: bash
+#     scriptLocation: "inlineScript"
+#     inlineScript: |
+#       az deployment group create \
+#         --name "MyKeyVaultDeployment$(Build.BuildNumber)" \
+#         --resource-group "${{ parameters.KeyVaultResourceGroupName }}" \
+#         --template-file "${{ parameters.KeyVaultBicepTemplateFilePath }}" \
+#         --parameters keyVaultName="${{ parameters.KeyVaultName }}" keyVaultURL="${{ parameters.KeyVaultURL }}" 
