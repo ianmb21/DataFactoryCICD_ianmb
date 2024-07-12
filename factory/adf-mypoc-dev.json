@@ -1,0 +1,17 @@
+{
+	"name": "adf-mypoc-dev",
+	"properties": {
+		"globalParameters": {
+			"glbParam": {
+				"type": "string",
+				"value": "test"
+			}
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5858670f-77b0-472d-a61a-d9ae32beb0c9",
+		"tenantId": "d9fae3cd-ef5c-4509-9a93-5bf6dcd91709"
+	}
+}
