@@ -6,7 +6,7 @@ variables:
 
 # Data Factory (ADF)
 - name: DataFactoryName
-  value: adf-njl-uat
+  value: adf-mypoc-uat
 
 - name: DataFactoryTemplateParametersFilePath
   value: "$(Build.Repository.LocalPath)/cicd/adf-cicd/adf-uat-template-parameters.json"
@@ -15,7 +15,7 @@ variables:
   value: "$(Build.Repository.LocalPath)/cicd/azure-resources/adf.bicep"
 
 - name: ADFResourceGroupName
-  value: rg-adf-cicd-uat
+  value: adfRG
 
 - name: ADFArtifactName # Data Factory artifact name created during the adf-build.yml job template
   value: ADFArtifact
